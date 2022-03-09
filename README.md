@@ -10,23 +10,23 @@ https://user-images.githubusercontent.com/68326324/157495724-9f132862-1d43-465b-
 
 # Quick Start
  
- ## create account  https://www.emailjs.com
+ ### create account  https://www.emailjs.com
  
- ## - create email service   and template 
+ ### - create email service   and template 
  
  
 
-## 📄 Clone or fork crypto_airdrop
+### 📄 Clone or fork crypto_airdrop
 
-##  run  npm install / yarn install
+###  run  npm install / yarn install
 
-##  🔎 Navigate to the components folder 
+###  🔎 Navigate to the components folder 
 
-## 🖼️ Provide your serverId and templateID and User_ID in the  Mailer.jsx 
+### 🖼️ Provide your serverId and templateID and User_ID in the  Mailer.jsx 
 
-##  emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'USER_ID')
+###  emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'USER_ID')
 
-run npm start  / yarn start
+## run npm start  / yarn start
 
 
  
