@@ -1,38 +1,186 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0fcff;
+  height: 50px;
+  padding: 20px 50px;
+  align-items: center;
 }
+.left-nav{
+  width: 50%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo{
+  font-size: 30px;
+  text-transform: capitalize;
+  font-style: italic;
+  cursor: pointer;
+}
+.logo-latter{
+  font-size: 40px;
+  color: #21a2e3;
+  font-weight: 500;
+}
+.right-nav{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.nav-list{
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+}
+.nav-item{
+  list-style-type: none;
+  margin-right: 10px;
+  text-transform: capitalize;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.contact-btn{
+  padding: 10px 30px;
+  font-size: .8rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 14px;
+  border: unset;
+  background-color: #69c0ff;
+  color: white;
+  font-weight: 600;
+}
+.nav-item:hover{
+  border-bottom: 2px solid #69c0ff;
+}
+.form-container{
+  width: 500px;
   display: flex;
   flex-direction: column;
+ 
+  background-color: #cfeaff;
+  padding: 20px 30px;
+}
+.form-body{
+ width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #ede1e8;
+  padding: 20px 30px;
+}
+
+.input-boxt{
+  padding: 14px 20px;
+  margin: 7px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 14px;
+  border: 2px solid #75b3f0;
+
+}
+.send-btn{
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  padding: 12px 20px;
+  font-size: 1rem;
+  text-align: center;
+  background-color: #21a2e3;
+  margin-top: 30px;
   color: white;
+  font-weight: 700;
+  border-radius: 10px;
+  border: 1px solid #f9f5f9;
+  cursor: pointer;
 }
+.form-header{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 
-.App-link {
-  color: #61dafb;
+  align-items: center;
+  padding: 10px 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.token-name{
+  margin-right: 50px;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  color: rgb(36, 31, 31, .4);
+}
+.token-symbol{
+  text-transform: uppercase;
+  color: #69c0ff;
+  cursor: pointer;
+}
+.main-container{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 20px 50px;
+  background-color: #f6ffed;
+}
+.main-left{
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  background-color: #fff0fd;
+  justify-content: center;
+  padding: 20px;
+  
+  
+}
+.leftmain-left-header{
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #303233;
+}
+.left-desc{
+  font-size: 1rem;
+  font-style: italic;
+  color: #696f76;
+}
+.social-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+  margin-bottom: 20px;
+}
+.discord,  .telegram{
+  width: 50px;
+}
+.social-icon{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.insta{
+  background-color: #f759ab;
+}
+.twitter{
+  background-color: #69c0ff;
+  
+}
+.colored{
+  color: #21a2e3;
+}
+.timer{
+  font-size: 2.7rem;
+  color: #eb2f96;
+  text-align: center;margin-top: 30px;
 }
